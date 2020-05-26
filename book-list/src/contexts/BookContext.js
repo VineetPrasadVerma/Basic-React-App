@@ -11,7 +11,7 @@ const BookContextProvider = (props) => {
   ])
 
   const addBook = (title, author) => {
-    setBooks([...books, { title, author, id: Math.random }])
+    setBooks([...books, { title, author, id: Math.random() }])
   }
 
   const deleteBook = (id) => {
